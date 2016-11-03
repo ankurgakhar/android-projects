@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Background circle for the magnitude value -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="@color/magnitude1" />
+    <size
+        android:height="36dp"
+        android:width="36dp" />
+    <corners
+        android:radius="18dp" />
+</shape>
+<!-- By defining the circle shape in XML, we create a single flexible asset that will scale across
+     devices instead of including multiple image assets from our designer. We can also manipulate the
+     color from Java code, further reducing the number of required assets. Fewer image files in our
+     project means the size of our app will be smaller, which is better for the end user!  -->
